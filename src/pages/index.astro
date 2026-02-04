@@ -1,17 +1,249 @@
 ---
-
+import '../styles/global.css';
 ---
 
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Scapegoat | Jordan Peterson's Legacy Of Lies</title>
+		<meta name="description" content="A documentary investigation into Jordan Peterson's academic fraud and the misappropriation of René Girard's mimetic theory." />
+		
+		<!-- Open Graph -->
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Scapegoat Documentary" />
+		<meta property="og:description" content="Jordan Peterson's Legacy Of Lies" />
+		
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Scapegoat Documentary" />
 	</head>
-	<body>
-		<h1>Astro</h1>
+	<body class="bg-black text-white font-sans">
+		<!-- Hero Section -->
+		<section class="min-h-screen flex items-center justify-center relative overflow-hidden">
+			<!-- Background gradient -->
+			<div class="absolute inset-0 bg-gradient-to-br from-red-950 via-black to-black opacity-80"></div>
+			
+			<div class="container mx-auto px-6 relative z-10">
+				<div class="grid md:grid-cols-2 gap-8 items-center max-w-7xl mx-auto">
+					<!-- Left side: Title and text -->
+					<div class="text-center md:text-left">
+						<h1 class="text-7xl md:text-8xl lg:text-9xl font-bold mb-6 tracking-tight" style="font-family: 'Directors Demo', sans-serif;">
+							<span class="text-red-500">SCAPEGOAT</span>
+						</h1>
+					<p class="text-2xl md:text-3xl mb-8 text-gray-300 font-light">
+						Jordan Peterson's Legacy Of Lies
+					</p>
+					<p class="text-lg md:text-xl mb-12 text-gray-400 max-w-2xl mx-auto">
+						A documentary investigation into Jordan Peterson's psychological abuse, fabrication, and distortion of ancient symbols, myths, and René Girard's mimetic theory.
+					</p>
+					
+					<!-- CTA Buttons -->
+					<div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+						<a href="#collaborate" class="bg-red-500 hover:bg-red-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200">
+							Collaborate With Us
+						</a>
+						<a href="#about" class="border border-gray-600 hover:border-gray-400 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-200">
+							Learn More
+						</a>
+					</div>
+				</div>
+				
+				<!-- Right side: Photo -->
+				<div class="flex justify-center md:justify-end">
+					<a title="Shane Bart Balkowitsch, Nostalgic Glass Wet Plate Studio, Bismarck, North Dakota, CC BY-SA 4.0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:A_Lifetime_of_Contemplation_with_Dr._Jordan_B._Peterson_Wet_Plate_Collodion.jpg" class="block">
+						<img width="512" alt="Wet Plate Collodion Photograph by Shane Balkowitsch taken on 3-9-2022, Plate #4180" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/A_Lifetime_of_Contemplation_with_Dr._Jordan_B._Peterson_Wet_Plate_Collodion.jpg/512px-A_Lifetime_of_Contemplation_with_Dr._Jordan_B._Peterson_Wet_Plate_Collodion.jpg?20220314193228" class="rounded-lg shadow-2xl" />
+					</a>
+				</div>
+				</div>
+			</div>
+			
+			<!-- Scroll indicator -->
+			<div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+				<svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+				</svg>
+			</div>
+		</section>
+
+		<!-- About Section -->
+		<section id="about" class="py-20 bg-gray-950">
+			<div class="container mx-auto px-6">
+				<div class="max-w-4xl mx-auto">
+					<h2 class="text-4xl font-bold mb-8 text-center">The Investigation</h2>
+					
+					<div class="prose prose-invert prose-lg max-w-none">
+						<p class="text-gray-300 mb-6 leading-relaxed">
+							When researcher and surrealist Stephanie King began investigating Jordan Peterson's work, she expected to critique his ideas. What she discovered was far more daunting: systematic academic fraud spanning decades, built on fabricated research, uncited claims, and plagiarism—all weaponized against women through hostile sexism disguised as intellectual discourse. Much attention has been given to his reactionary discourse toward the trans community and less on the implications toward women generally in his fraudulent scholarship and political strategy. This project has a heavy focus on the latter, but will touch briefly on the former.
+						</p>
+						
+						<p class="text-gray-300 mb-6 leading-relaxed">
+							<em>Scapegoat</em> is a 6-episode documentary series that forensically patterns Peterson's academic fraud, including fabricated research in his book <em>Maps of Meaning: The Architecture of Belief</em>, exposes his use of zero credible sources for central claims about ancient mythology, and his appropriation of a violent Nazi terrorist's manifesto whilst utilizing it with his framework which was allegedly against fascism. The series exposes how Peterson fundamentally misunderstood and weaponized René Girard's mimetic theory—arguing that "speech alone" (regardless of truthfulness) was acceptable, when Girard taught that scapegoating violence emerges from false accusations. Peterson systematically scapegoated Black women for the deterioration of quality at Harvard on his podcast, has claimed women want "brutal male domination", has engaged in reputation destruction while lying about it being a "female proclivity", and has pathologized a false fabricated disorder, the Oedipal Mother Complex.
+						</p>
+						
+						<p class="text-gray-300 mb-8 leading-relaxed">
+							<em>Scapegoat</em> establishes the Truth: public intellectuals can sell a million copies of their book and their fraud go unnoticed. In the case of Peterson, this phenomenon abetted mass deception.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Episodes Preview -->
+		<section class="py-20 bg-black">
+			<div class="container mx-auto px-6">
+				<div class="max-w-6xl mx-auto">
+					<h2 class="text-4xl font-bold mb-12 text-center">Six-Episode Series</h2>
+					
+					<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+						<!-- Episode 1 -->
+						<div class="bg-gray-900 border border-gray-800 rounded-lg p-6 hover:border-red-500 transition-colors duration-200">
+							<div class="text-red-500 font-bold mb-2">Episode 1</div>
+							<h3 class="text-xl font-semibold mb-3">What Is An Academic Hand Waver?</h3>
+							<p class="text-gray-400 text-sm">Pretending up a fabricated framework that escapes scrutiny will eventually be noticed.</p>
+						</div>
+						
+						<!-- Episode 2 -->
+						<div class="bg-gray-900 border border-gray-800 rounded-lg p-6 hover:border-red-500 transition-colors duration-200">
+							<div class="text-red-500 font-bold mb-2">Episode 2</div>
+							<h3 class="text-xl font-semibold mb-3">Girard VS Peterson</h3>
+							<p class="text-gray-400 text-sm">Maps of Meaning and its applied social theory fundamentally failed René Girard's Mimetic Theory.</p>
+						</div>
+						
+						<!-- Episode 3 -->
+						<div class="bg-gray-900 border border-gray-800 rounded-lg p-6 hover:border-red-500 transition-colors duration-200">
+							<div class="text-red-500 font-bold mb-2">Episode 3</div>
+							<h3 class="text-xl font-semibold mb-3">The Nazification Of Misogyny</h3>
+							<p class="text-gray-400 text-sm">A discussion about a terrorist sharing an overlapping hatred of women with Peterson.</p>
+						</div>
+						
+						<!-- Episode 4 -->
+						<div class="bg-gray-900 border border-gray-800 rounded-lg p-6 hover:border-red-500 transition-colors duration-200">
+							<div class="text-red-500 font-bold mb-2">Episode 4</div>
+							<h3 class="text-xl font-semibold mb-3">Harvard's Most Successful Fraud</h3>
+							<p class="text-gray-400 text-sm">Did anyone in the Psychology department bother to read the book they praised?</p>
+						</div>
+						
+						<!-- Episode 5 -->
+						<div class="bg-gray-900 border border-gray-800 rounded-lg p-6 hover:border-red-500 transition-colors duration-200">
+							<div class="text-red-500 font-bold mb-2">Episode 5</div>
+							<h3 class="text-xl font-semibold mb-3">Implicating The State</h3>
+							<p class="text-gray-400 text-sm">Peterson legally embroiled himself as an activist and public intellectual until the bitter end.</p>
+						</div>
+						
+						<!-- Episode 6 -->
+						<div class="bg-gray-900 border border-gray-800 rounded-lg p-6 hover:border-red-500 transition-colors duration-200">
+							<div class="text-red-500 font-bold mb-2">Episode 6</div>
+							<h3 class="text-xl font-semibold mb-3">Network Of Misogyny</h3>
+							<p class="text-gray-400 text-sm">Our analysis uncovers a pattern of pretending for men and lying about women.</p>
+						</div>
+					</div>
+					
+					<div class="text-center mt-12">
+						<p class="text-gray-400 text-lg">Target Premiere: <span class="text-white font-semibold">2028</span></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Collaboration CTA -->
+		<section id="collaborate" class="py-20 bg-gradient-to-br from-red-950 via-gray-950 to-black">
+			<div class="container mx-auto px-6">
+				<div class="max-w-3xl mx-auto text-center">
+					<h2 class="text-4xl font-bold mb-6">Collaborate With Us</h2>
+					<p class="text-xl text-gray-300 mb-8 leading-relaxed">
+						This investigation benefits from collaboration. If you have information, evidence, or expertise relevant to this case, we want to hear from you.
+					</p>
+					
+					<div class="bg-gray-900 border border-gray-800 rounded-lg p-8 mb-8">
+						<h3 class="text-2xl font-semibold mb-4">We're Looking For:</h3>
+						<ul class="text-left text-gray-300 space-y-3 max-w-xl mx-auto">
+							<li class="flex items-start">
+								<span class="text-red-500 mr-3">•</span>
+								<span>Academic experts in Girard's mimetic theory and philosophy</span>
+							</li>
+							<li class="flex items-start">
+								<span class="text-red-500 mr-3">•</span>
+								<span>Egyptologists and experts on ancient Chinese Taoism</span>
+							</li>
+							<li class="flex items-start">
+								<span class="text-red-500 mr-3">•</span>
+								<span>Former students, colleagues, or associates with relevant information</span>
+							</li>
+							<li class="flex items-start">
+								<span class="text-red-500 mr-3">•</span>
+								<span>Legal experts in academic fraud and First Amendment law</span>
+							</li>
+							<li class="flex items-start">
+								<span class="text-red-500 mr-3">•</span>
+								<span>Those who participated with Peterson to come forward</span>
+							</li>
+							<li class="flex items-start">
+								<span class="text-red-500 mr-3">•</span>
+								<span>Psychological experts on narcissism, lying, sexism, and counterterrorism</span>
+							</li>
+							<li class="flex items-start">
+								<span class="text-red-500 mr-3">•</span>
+								<span>Press and media interested in covering this investigation</span>
+							</li>
+						</ul>
+					</div>
+					
+					<a href="mailto:director@scapegoatdocumentary.com" class="inline-block bg-red-500 hover:bg-red-400 text-white px-10 py-4 rounded-lg text-lg font-semibold transition-colors duration-200">
+						Get In Touch
+					</a>
+					
+					<p class="text-gray-400 text-sm mt-6">
+						Anonymous tips accepted. All communications handled with confidentiality.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Director Section -->
+		<section class="py-20 bg-gray-950">
+			<div class="container mx-auto px-6">
+				<div class="max-w-3xl mx-auto">
+					<h2 class="text-3xl font-bold mb-8 text-center">Director & Lead Investigator</h2>
+					<div class="text-center">
+						<h3 class="text-2xl font-semibold mb-3">Stephanie King</h3>
+						<p class="text-red-500 mb-6">savantlab.org</p>
+						<p class="text-gray-300 leading-relaxed max-w-2xl mx-auto">
+							Stephanie King's forensic investigation into Jordan Peterson's work has uncovered systematic fraud spanning decades. This documentary represents years of primary source research and collaboration with scholars, legal experts, and those affected by Peterson's fraudulent claims.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="py-12 bg-black border-t border-gray-900">
+			<div class="container mx-auto px-6">
+				<div class="max-w-4xl mx-auto">
+					<div class="flex flex-col md:flex-row justify-between items-center gap-6">
+						<div class="text-center md:text-left">
+							<p class="text-gray-400 text-sm">
+								© 2026 Scapegoat Documentary. All rights reserved.
+							</p>
+						</div>
+						
+						<div class="flex gap-6">
+							<a href="mailto:director@scapegoatdocumentary.com" class="text-gray-400 hover:text-white transition-colors duration-200">
+								Press
+							</a>
+							<a href="mailto:director@scapegoatdocumentary.com" class="text-gray-400 hover:text-white transition-colors duration-200">
+								Contact
+							</a>
+							<a href="#" class="text-gray-400 hover:text-white transition-colors duration-200">
+								Privacy
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

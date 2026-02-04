@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Directors Demo';
+  src: url('/fonts/tt-directors-demo.bl-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Directors Demo Thin';
+  src: url('/fonts/tt-directors-demo.thin-rough-thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
