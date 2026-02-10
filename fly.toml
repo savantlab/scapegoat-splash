@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for scapegoat-splash-falling-sun-8584 on 2026-02-03T19:53:51-05:00
+# fly.toml app configuration file generated for scapegoat-splash-iexe0a on 2026-02-10T04:31:19Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'scapegoat-splash-falling-sun-8584'
-primary_region = 'ord'
+app = 'scapegoat-splash-iexe0a'
+primary_region = 'iad'
 
 [build]
 
